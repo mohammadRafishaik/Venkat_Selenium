@@ -16,6 +16,8 @@ public class SampleLoginforhrm {
 		driver.findElement(By.id("txtUsername")).sendKeys("user03");
 		driver.findElement(By.id("txtPassword")).sendKeys("pass1234");
 		driver.findElement(By.id("btnLogin")).click();
+		
+		
 	}
 	
 
